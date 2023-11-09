@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "GRTPE Cusco",
+    "slug": "APP-GRTPE-CUSCO-FRONTEND",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/adaptive-icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/negativo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#003580"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#003D88"
+      },
+      "package": "com.informaticagrtpecusco.APPGRTPECUSCOFRONTEND"
+    },
+    "web": {
+      "favicon": "./assets/images/icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5f97294f-4516-4965-a505-16639f9c77f2"
+      }
+    }
+  }
+}
